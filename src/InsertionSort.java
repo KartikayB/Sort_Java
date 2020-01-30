@@ -22,6 +22,7 @@ public class InsertionSort {
 			int j=i-1;
 			while(j>=0 && ar[j]>ele) {
 				ar[j+1]=ar[j];
+				
 				j-=1;
 			}
 			ar[j+1]=ele;
